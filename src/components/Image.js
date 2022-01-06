@@ -9,7 +9,7 @@ const Image = () => {
       allFile(
         filter: {
           extension: { regex: "/(jpg)|(png)|(jpge)/" }
-          name: { nin: ["background", "background2"] }
+          name: { nin: ["background", "background2", "gatsby-icon"] }
         }
       ) {
         edges {
